@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html{scroll-behavior: smooth;}
-body{height: 900vh;}
+body{height: 1200vh;}
 header{width: 100%; height: 100vh;background:#CBF0FF;
         position: relative;overflow-x: hidden;}
 /*overflow: hidden;*/
@@ -459,7 +459,7 @@ ion-icon {
 .list2{
     width: 66.6%;
     height: 100vh;
-    background-color: palegreen;
+    background-color: white;
 }
 .list3{
     width: 33.4%;
@@ -473,7 +473,7 @@ ion-icon {
     transition: 2s ease-in-out;
 }
 @keyframes fadeIn{
-    0% {opacity: 0;}
+    0% {opacity: 0.78;}
     100% {opacity: 1;}
 }
 .list1 img{
@@ -485,14 +485,14 @@ ion-icon {
     left: 0;
     transform: translateX(0em)
 }
-.lis img{
+/* .list2 img{
     width: 0;
     height: 0;
 }
-.lis img.animate{
+.list2 img.animate{
     width: 1199px;
     height: 1078px;
-}
+} */
 .portfolioWrap a{
     z-index: 100;
     position: absolute;

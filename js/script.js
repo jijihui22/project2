@@ -3,6 +3,7 @@ $(function(){
     let $shopWrap = $('.shop');
     let $offset = 500;
     let $shopOst = $shopWrap.offset().top - $offset;
+    let $scpOst = $('.scp').offset().top - $offset;
     let $todoOst = $('.todo').offset().top - $offset;
     let $timesOst = $('.times').offset().top - $offset;
     let $tourOst = $('.tour').offset().top - $offset;
@@ -14,10 +15,12 @@ $(function(){
     $(window).scroll(function(){
         if($(this).scrollTop() > $shopOst){
             $shopWrap.find('img').addClass('animate');
-            
         }
         if($(this).scrollTop() > $todoOst){
             $('.todo').find('img').addClass('animate');
+        }
+        if($(this).scrollTop() > $scpOst){
+            $('.scp').find('img').addClass('animate');
         }
         if($(this).scrollTop() > $timesOst){
             $('.times').find('img').addClass('animate');
