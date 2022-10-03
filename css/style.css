@@ -485,14 +485,6 @@ ion-icon {
     left: 0;
     transform: translateX(0em)
 }
-/* .list2 img{
-    width: 0;
-    height: 0;
-}
-.list2 img.animate{
-    width: 1199px;
-    height: 1078px;
-} */
 .portfolioWrap a{
     z-index: 100;
     position: absolute;
