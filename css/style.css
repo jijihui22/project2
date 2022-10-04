@@ -11,8 +11,8 @@ header{width: 100%; height: 100vh;background:#CBF0FF;
 /*----------------------mene----------------------*/
 .menu-Area{
     position: absolute;
-    top: 34%;
-    right: 1%
+    top: 35%;
+    right: 0%
 }
 .menu{
     position: relative;
@@ -62,12 +62,11 @@ header{width: 100%; height: 100vh;background:#CBF0FF;
     color: #848484;
     display: block;
     text-transform: uppercase;
-    letter-spacing: 0.15em;
+    letter-spacing: 2.75px;
     transition: 0.5s;
     font-weight: bolder;
     -webkit-box-reflect:below lpx linear-gradient(
     transparent,#0008);
-    line-height: 0,07em;
     outline: none;
     animation:animate 5s linear infinite
 }
@@ -86,7 +85,7 @@ header{width: 100%; height: 100vh;background:#CBF0FF;
     bottom: 8%;
     right: 8%;
     color: white;
-    font-size: 1.1em;
+    font-size: 1.25vw;
     font-weight: bold;
     transition: 0.5s ease-out;
     z-index: 100;
@@ -101,7 +100,7 @@ header{width: 100%; height: 100vh;background:#CBF0FF;
     left: 50%;
     transform: translate(-50%,-50%);
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.75vw;
     font-weight: bold;
     cursor: pointer;
 }
@@ -113,7 +112,7 @@ header{width: 100%; height: 100vh;background:#CBF0FF;
     bottom: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: scrollanimate 1.8s ease-out infinite
+    animation: scrollanimate 15s ease-out infinite
 }
 @keyframes scrollanimate{
     0%
@@ -212,7 +211,7 @@ ion-icon {
 }
 .header-Area span:before{
     z-index: 10;    
-    animation: logoanione 1.1s ease-in-out infinite;
+    animation: logoanione 1.125s ease-in-out infinite;
 }
 @keyframes logoanione{
     0%,100%
@@ -226,7 +225,7 @@ ion-icon {
 .header-Area span:after{
     z-index: 9;
     
-    animation: logoanitwo 1.1s ease-in-out infinite
+    animation: logoanitwo 1.125s ease-in-out infinite
 }
 @keyframes logoanitwo{
     0%,100%
@@ -276,18 +275,17 @@ ion-icon {
 
 /*----------------------introduce----------------------*/
 .introduce-Area{
+    font-family: 'Jua', sans-serif;
+    position: relative;
     width: 100%;
     height: 100vh;
-    position: relative;
-    font-family: 'Jua', sans-serif;
     padding: 160px 140px 0 140px;
     background: #e7f8ff;
-    color: #2e3133;
-    background: #e7f8ff;
+    color: #2e3133; 
 }
 .introduce-Text{
-    font-size: 32px;
     line-height: 50px;
+    font-size: 32px;
     padding-bottom: 80px;
 }
 .introduce-Privacy {
@@ -295,12 +293,12 @@ ion-icon {
 }
 .introduce-Character{
     position: relative;
-    bottom: 25%;
     float: right;
+    bottom: 25%;
     font-size: 24px;
 }
 
-/*skills*/
+/*----------------------skills----------------------*/
 .skills{
     width: 100%;  
     height: 100vh;
@@ -361,15 +359,15 @@ ion-icon {
 }
 .graph span{
     display:flex;
-    height:40px;
-    line-height:40px;
     justify-content: center;
+    height:40px;
+    transform:rotate(180deg);
     text-align:center;
     box-sizing: border-box;
+    line-height:40px;
+    font-weight: 500;
     font-size: 13px;
     color: #3e3f46;
-    font-weight: 500;
-    transform:rotate(180deg);
 }
 .graph.stack1 span{
     background-color:white;
@@ -452,18 +450,18 @@ ion-icon {
     overflow: hidden;
 }
 .list1{
-    width: 33.4%;
-    height: 38.2vh;
+    width: 33.5%;
+    height: 38vh;
     background-color: snow;
 }
 .list2{
-    width: 66.6%;
+    width: 66.5%;
     height: 100vh;
     background-color: white;
 }
 .list3{
-    width: 33.4%;
-    height: 61.8vh;
+    width: 33.5%;
+    height: 62vh;
     background-color: chocolate;
     position: absolute;
     bottom: 0;
@@ -473,7 +471,7 @@ ion-icon {
     transition: 2s ease-in-out;
 }
 @keyframes fadeIn{
-    0% {opacity: 0.78;}
+    0% {opacity: 0.75;}
     100% {opacity: 1;}
 }
 .list1 img{
@@ -530,7 +528,7 @@ ion-icon {
     border-radius: 1PX
 }
 .contactBox, fadeIn{
-    transition: 2.4s ease-in-out;
+    transition: 2.5s ease-in-out;
     animation: fadeIn 1s forwards ease-in;
 }
 .contact-Box li{
@@ -538,11 +536,10 @@ ion-icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 33.3%; 
 }
 .contact-Box li p{
     font-family: 'Kanit', sans-serif;
-    font-size: 1.6em;
+    font-size: 27px;
     margin-right: 16px;
 }
 .contact-Box li img{
