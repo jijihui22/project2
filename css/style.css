@@ -19,9 +19,9 @@ header{width: 100%; height: 100vh;background:#CBF0FF;
 }
 .menu li{
     position: relative;
-    width: 137px;
+    width: 160px;
     background: #F9F9F9;
-    padding: 7px 15px;
+    padding: 10px 15px;
     z-index: var(--i);
     transition: 0.5s
 }
@@ -64,6 +64,7 @@ header{width: 100%; height: 100vh;background:#CBF0FF;
     text-transform: uppercase;
     letter-spacing: 2.75px;
     transition: 0.5s;
+    font-size: 20px;
     font-weight: bolder;
     -webkit-box-reflect:below lpx linear-gradient(
     transparent,#0008);
@@ -149,6 +150,7 @@ ion-icon {
     width: 100%;
     height: 100%;
     padding-top: 40px;
+    font-size: 1.5em;
 }
 .header-Img1{
     position: absolute;
@@ -275,33 +277,41 @@ ion-icon {
 
 /*----------------------introduce----------------------*/
 .introduce-Area{
-    font-family: 'Jua', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     position: relative;
     width: 100%;
     height: 100vh;
-    padding: 160px 140px 0 140px;
+    padding: 9.5% 7.5% 0 7.5%;
     background: #e7f8ff;
     color: #2e3133; 
 }
 .introduce-Text{
-    line-height: 50px;
-    font-size: 32px;
+    line-height: 75px;
+    font-size: 2.38em;
     padding-bottom: 80px;
 }
 .introduce-Privacy {
-    font-size: 22px;
+    font-size: 1.63em;
+    line-height: 38px;
+}
+.introduce-Privacy a{
+    color: #2e3133;
+    font-size: 26px;  
 }
 .introduce-Character{
     position: relative;
     float: right;
     bottom: 25%;
-    font-size: 24px;
+    font-size: 1.63em;
 }
 
 /*----------------------skills----------------------*/
 .skills{
     width: 100%;  
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .skills-graph{
     display: flex;
@@ -544,7 +554,4 @@ ion-icon {
 }
 .contact-Box li img{
     border-radius: 8px
-}
-.test{
-    color: #000;
 }
