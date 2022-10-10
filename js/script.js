@@ -2,6 +2,7 @@ $(function(){
     
     let $shopWrap = $('.shop');
     let $offset = 500;
+    let $weatherOst = $('.weather').offset().top - $offset;
     let $shopOst = $shopWrap.offset().top - $offset;
     let $scpOst = $('.scp').offset().top - $offset;
     let $todoOst = $('.todo').offset().top - $offset;
@@ -15,6 +16,9 @@ $(function(){
     $(window).scroll(function(){
         if($(this).scrollTop() > $shopOst){
             $shopWrap.find('img').addClass('animate');
+        }
+        if($(this).scrollTop() > $weatherOst){
+            $('.weather').find('img').addClass('animate');
         }
         if($(this).scrollTop() > $todoOst){
             $('.todo').find('img').addClass('animate');

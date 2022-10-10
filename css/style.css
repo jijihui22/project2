@@ -510,6 +510,7 @@ ion-icon {
 .bye{
     position: relative;
     color: #2e3133;
+    overflow: hidden;
 }
 .bye-Thank{
     font-family: 'Nanum Myeongjo', serif;
