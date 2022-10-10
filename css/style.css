@@ -541,18 +541,18 @@ ion-icon {
 }
 .contactBox, fadeIn{
     transition: 2.5s ease-in-out;
-    animation: fadeIn 1s forwards ease-in;
+    animation: fadeIn 1s forwards ease-in
 }
 .contact-Box li{
     font-family: 'Kanit', sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 .contact-Box li p{
     font-family: 'Kanit', sans-serif;
     font-size: 27px;
-    margin-right: 16px;
+    margin-right: 16px
 }
 .contact-Box li img{
     border-radius: 8px
