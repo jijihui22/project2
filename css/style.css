@@ -303,8 +303,8 @@ ion-icon {
 .introduce-Character{
     position: absolute;
     float: right;
-    right: 12%;
-    bottom: 38%;
+    right: 11%;
+    bottom: 47%;
     font-size: 25px;
 }
 
@@ -379,7 +379,7 @@ ion-icon {
     box-sizing: border-box;
     line-height:40px;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 14px;
     color: #3e3f46;
 }
 .graph.stack1 span{
@@ -449,7 +449,7 @@ ion-icon {
     padding: 0 26px
 }
 .skills-Icon p{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     padding-top: 5px;
 }
