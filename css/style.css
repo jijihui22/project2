@@ -19,9 +19,9 @@ header{width: 100%; height: 100vh;background:#CBF0FF;
 }
 .menu li{
     position: relative;
-    width: 160px;
+    width: 137px;
     background: #F9F9F9;
-    padding: 10px 15px;
+    padding: 7px 15px;
     z-index: var(--i);
     transition: 0.5s
 }
@@ -62,12 +62,13 @@ header{width: 100%; height: 100vh;background:#CBF0FF;
     color: #848484;
     display: block;
     text-transform: uppercase;
-    letter-spacing: 2.75px;
+    letter-spacing: 0.15em;
     transition: 0.5s;
-    font-size: 20px;
     font-weight: bolder;
     -webkit-box-reflect:below lpx linear-gradient(
     transparent,#0008);
+    line-height: 0,07em;
+    font-size: 1em;
     outline: none;
     animation:animate 5s linear infinite
 }
@@ -150,7 +151,7 @@ ion-icon {
     width: 100%;
     height: 100%;
     padding-top: 40px;
-    font-size: 1.45em;
+    font-size: 1em;
 }
 .header-Img1{
     position: absolute;
@@ -281,31 +282,30 @@ ion-icon {
     position: relative;
     width: 100%;
     height: 100vh;
-    padding: 9.5% 13% 0 12%;
+    padding: 10% 0 0 12%;
     background: #e7f8ff;
-    color: #2e3332; 
+    color: midnightblue; 
 }
 .introduce-Text{
-    line-height: 60px;
-    font-size: 28px;
-    padding-bottom: 80px;
+    line-height: 53px;
+    font-size: 26px;
 }
 .introduce-Privacy {
-    font-size: 26px;
-    line-height: 38px;
+    font-size: 22px;
+    line-height: 29px;
     position: absolute;
-    bottom: 25%;
+    bottom: 20%;
 }
 .introduce-Privacy a{
-    color: #2e3133;
-    font-size: 25px;  
+    color: midnightblue;
+    font-size: 20px;  
 }
 .introduce-Character{
     position: absolute;
     float: right;
-    right: 11%;
-    bottom: 47%;
-    font-size: 25px;
+    left: 68%;
+    bottom: 36%;
+    font-size: 22px;
 }
 
 /*----------------------skills----------------------*/
@@ -379,7 +379,7 @@ ion-icon {
     box-sizing: border-box;
     line-height:40px;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
     color: #3e3f46;
 }
 .graph.stack1 span{
@@ -449,9 +449,8 @@ ion-icon {
     padding: 0 26px
 }
 .skills-Icon p{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
-    padding-top: 5px;
 }
 
 /*----------------------sections/*----------------------*/
@@ -500,12 +499,12 @@ ion-icon {
     z-index: 100;
     position: absolute;
     right: 0%;
-    top: 2%;
+    top: 1%;
     border: 1px solid #777;
-    padding: 20px 50px;
+    padding: 15px 40px;
     background-color: #fff;
     color: #777;
-    font-size: 1.25em;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -529,18 +528,15 @@ ion-icon {
 .contact-Box{
     background-color: #fff;
     position: absolute;
-    width: 360px;
-    height: 200px;
+    width: 300px;
+    height: 190px;
     top: 50%;
     right: -350px;
     transform: translateY(-50%);
-    padding: 1em;
+    padding: 15.5px;
 }
 .contact-Box.contactBox{
     right: 0;
-}
-.contact-Box li IMG{
-    border-radius: 1PX
 }
 .contactBox, fadeIn{
     transition: 2.5s ease-in-out;
@@ -554,8 +550,8 @@ ion-icon {
 }
 .contact-Box li p{
     font-family: 'Kanit', sans-serif;
-    font-size: 27px;
-    margin-right: 16px
+    font-size: 22px;
+    margin-right: 15px
 }
 .contact-Box li img{
     border-radius: 8px
